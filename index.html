@@ -18,6 +18,7 @@
     </head>
     <body>
         
+    <div class="container">
         <div class="jumbotron">
             <div class="container">
                 <h1>Work Calculator</h1>
@@ -44,7 +45,50 @@
                 <tr></tr>
             </tbody>
         </table>
+
         
+        <!-- panel -->
+    <div class="row">
+            <div class="col-lg-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Add Employee</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <!-- form -->
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="search">Employee Name</label>
+                                <input type="text" class="form-control employeeName">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="startYear">Role</label>
+                                <input type="text" class="form-control role">
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="endYear">Start Date (DD/MM/YY) - ex: 01/01/89</label>
+                                    <input type="text" class="form-control startDate">
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="endYear">Monthly Rate</label>
+                                    <input type="text" class="form-control monthlyRate">
+                            </div>
+
+                            <button type="search" class="btn btn-default submitBtn">Search</button>
+                            <button type="button" class="btn btn-default clearBtn">Clear</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
         
 
         <!-- jQuery -->
