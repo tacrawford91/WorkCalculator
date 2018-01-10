@@ -1,10 +1,10 @@
 
-var config = {
+ var config = {
     apiKey: "AIzaSyAf27asdzPJL7ZMJvhnX0Bi8n95m5p1bGw",
     authDomain: "work-calculator-13c3e.firebaseapp.com",
     databaseURL: "https://work-calculator-13c3e.firebaseio.com",
     projectId: "work-calculator-13c3e",
-    storageBucket: "",
+    storageBucket: "work-calculator-13c3e.appspot.com",
     messagingSenderId: "140341633697"
   };
   
@@ -30,8 +30,8 @@ var config = {
         database.ref().push({
             employeeName: employeeName,
             role: role,
-            startDate = startDate,
-            monthlyRate = monthlyRate
+            startDate: startDate,
+            monthlyRate: monthlyRate
         })
 
     })
